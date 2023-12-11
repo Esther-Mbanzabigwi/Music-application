@@ -22,7 +22,7 @@ Clone the Repository:
 
 bash
 Copy code
-git clone https://github.com/your-username/music-discovery-app.git
+git clone https://github.com/Esther-Mbanzabigwi/Music-application
 cd music-discovery-app
 Create a Virtual Environment:
 
