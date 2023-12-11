@@ -6,6 +6,16 @@ body {
     background-color: #f4f4f4;
 }
 
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(''); /* Replace 'background-image.jpg' with the path to your image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 header {
     background-color: #333;
     color: #fff;
