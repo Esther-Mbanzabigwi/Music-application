@@ -3,6 +3,7 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #f4f4f4;
 }
 
 header {
@@ -14,6 +15,7 @@ header {
 
 main {
     padding: 20px;
+    text-align: center;
 }
 
 #search-container {
@@ -21,13 +23,31 @@ main {
 }
 
 #search-input {
-    padding: 8px;
-    width: 200px;
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
 }
 
-#results-container {
+button {
+    padding: 10px;
+    background-color: #4285f4;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #3a76d1;
+}
+
+.results {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .result-item {
@@ -36,8 +56,32 @@ main {
     border: 1px solid #ddd;
     max-width: 200px;
     text-align: center;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .result-item img {
     max-width: 100%;
+    border-radius: 5px;
+}
+
+.result-item p {
+    margin: 10px 0;
+    font-size: 14px;
+    color: #333;
+}
+
+.result-item a {
+    display: block;
+    background-color: #4285f4;
+    color: #fff;
+    padding: 8px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.result-item a:hover {
+    background-color: #3a76d1;
 }
