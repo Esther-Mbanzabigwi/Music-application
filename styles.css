@@ -10,7 +10,7 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url(''); /* Replace 'background-image.jpg' with the path to your image */
+    background-image: url('https://github.com/Esther-Mbanzabigwi/Music-application/blob/main/music.jpg?raw=true'); /* Replace 'background-image.jpg' with the path to your image */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
