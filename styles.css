@@ -1,0 +1,43 @@
+/* styles.css */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+#search-container {
+    margin-bottom: 20px;
+}
+
+#search-input {
+    padding: 8px;
+    width: 200px;
+}
+
+#results-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.result-item {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    max-width: 200px;
+    text-align: center;
+}
+
+.result-item img {
+    max-width: 100%;
+}
