@@ -40,6 +40,8 @@ Copy code
 python app.py && Open http://localhost:5000
 
 **Demo Video**
+
+
 Watch the https://drive.google.com/file/d/1vz5PvycaanKtHZqCw2BUarwbgyQPCuDG/view?usp=sharing demo video for a quick tour.
 
 **Credits & Contributions**
