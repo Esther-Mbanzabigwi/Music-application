@@ -26,6 +26,10 @@ git clone https://github.com/Esther-Mbanzabigwi/Music-application
 cd music-discovery-app
 Create a Virtual Environment:
 
+Demo Video
+Watch a brief demo video showcasing the features and usage of Travel Explorer: https://drive.google.com/file/d/1vz5PvycaanKtHZqCw2BUarwbgyQPCuDG/view?usp=sharing
+
+
 bash
 Copy code
 python -m venv venv
